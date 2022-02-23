@@ -116,3 +116,4 @@ alias librewolf="Exec=env GDK_BACKEND=wayland MOZ_ENABLE_WAYLAND=1 /usr/bin//lib
 eval $(keychain --eval --quiet id_ed25519)
 export EDITOR=vim
 alias config='/usr/bin/git --git-dir=/home/st/.cfg/ --work-tree=/home/st'
+export GPG_TTY=$(tty)
