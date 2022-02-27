@@ -26,7 +26,13 @@ set ttyfast                 " Speed up scrolling in Vim
 
 call plug#begin()
  " Plugin Section
- Plug 'dracula/vim'
- Plug 'preservim/nerdcommenter'
+ Plug 'ghifarit53/tokyonight-vim'
+ Plug 'tpope/vim-commentary'
 call plug#end()
 
+set termguicolors
+
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+
+colorscheme tokyonight

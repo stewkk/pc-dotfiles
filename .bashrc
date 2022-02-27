@@ -112,6 +112,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export GDK_BACKEND=wayland
+export MOZ_ENABLE_WAYLAND=1
 alias librewolf="Exec=env GDK_BACKEND=wayland MOZ_ENABLE_WAYLAND=1 /usr/bin//librewolf %u"
 eval $(keychain --eval --quiet id_ed25519)
 export EDITOR=vim

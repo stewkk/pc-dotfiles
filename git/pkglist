@@ -68,12 +68,14 @@ firmware-sof-signed
 firmware-ti-connectivity
 firmware-tomu
 firmware-zd1211
+fonts-lmodern
 foot
 gcc-10-base
 gcc-9-base
 gettext-base
 git
 gnome-firmware
+golang-go
 gpgv
 grep
 groff-base
@@ -99,6 +101,7 @@ keychain
 klibc-utils
 kmod
 krb5-locales
+latexmk
 less
 libacl1
 libapparmor1
@@ -112,6 +115,8 @@ libbpf0
 libbsd0
 libbz2-1.0
 libc6
+libcairo2
+libcairo2-dev
 libcap2
 libcap2-bin
 libcap-ng0
@@ -173,6 +178,7 @@ libpam-modules
 libpam-modules-bin
 libpam-runtime
 libpam-systemd
+libpango1.0-dev
 libpcre2-8-0
 libpcre3
 libpopt0
@@ -200,6 +206,8 @@ libtirpc-common
 libudev1
 libunistring2
 libuuid1
+libwayland-dev
+libxkbcommon-dev
 libxtables12
 libxxhash0
 libzstd1
@@ -243,6 +251,7 @@ readline-common
 reportbug
 rsyslog
 runit-helper
+scdoc
 sed
 sensible-utils
 shim-signed
@@ -261,6 +270,10 @@ task-laptop
 tasksel
 tasksel-data
 telnet
+texlive-fonts-extra
+texlive-fonts-recommended
+texlive-full
+texlive-latex-base
 texlive-latex-recommended
 traceroute
 tzdata
@@ -273,10 +286,12 @@ util-linux
 vim-common
 vim-tiny
 wamerican
+wayland-protocols
 wdisplays
 wget
 whiptail
 wl-clipboard
+wofi
 xxd
 xz-utils
 zathura-pdf-poppler
